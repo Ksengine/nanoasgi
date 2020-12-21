@@ -1,11 +1,13 @@
-### nanoasgi
+### NanoASGI
+A toy ASGI web framework.
+
 This is a toy ASGI web framework. It has zero dependencies and only 170 lines of code. I wrote it to play around with ASGI and to study how frameworks work under the hood.
-Python >= 3.7 is required.
+Python >= 3.6 is required.
 
 #### Example:
 ```python
 # example.py
-from nanoasgi import App
+from nanoasgi import App, Response
 
 
 app = App()
