@@ -50,6 +50,9 @@ class Request(NamedTuple):
     headers: CaselessMultiDict
     query: MultiDict
     body: bytes
+    version: str
+    spec_version: str = '2.0'
+    http_version: str
 
     @property
     def text(self) -> str:
