@@ -1,4 +1,4 @@
-### NanoASGI
+# NanoASGI
 A toy ASGI web framework.
 
 This is a toy ASGI web framework. It has zero dependencies and only 170 lines of code. I wrote it to play around with ASGI and to study how frameworks work under the hood.
